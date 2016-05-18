@@ -8,6 +8,7 @@
   display: inline-block;
   width:33%;
   height: auto;
+  margin-top: 10px;
 }
 
 li.octocat > a > img{
@@ -60,3 +61,26 @@ div.image-caption{
   display: inline-block;
   float: right;
 }
+
+.image-number::before{
+  content: "#";
+}
+
+/********************************************************
+I can't seem to get this pointer down right before the footer....
+here is my attempt.*/
+
+
+
+
+/*.octocat .image-footer::before{
+  content: "";
+      display: block;
+      height: 0;
+      width: 0;
+      border: 8px solid transparent;
+      border-top-color: #cacaca;
+      position: absolute;
+      right: 7px;
+      top: 0;
+}*/
