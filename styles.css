@@ -73,14 +73,14 @@ here is my attempt.*/
 
 
 
-/*.octocat .image-footer::before{
+.octocat .image-footer::before{
   content: "";
       display: block;
       height: 0;
       width: 0;
       border: 8px solid transparent;
       border-top-color: #cacaca;
-      position: absolute;
-      right: 7px;
-      top: 0;
-}*/
+      position: relative;
+      left: 292px;
+      bottom: 8px;
+}
